@@ -1,4 +1,3 @@
-clear
 from twilio.rest import Client
 import sys
 import os
@@ -14,7 +13,7 @@ token = input("Enter token")
 id = input ("Enter usar id")
 t = input("Enter send message: ")
 p = input("Enter a number: ")
-def main():
+def otp():
     os.system("clear")
     account_sid = id
     auth_token = token
@@ -44,4 +43,4 @@ def again():
 
 
 if __name__ == "__main__":
-    main()
+    otp()
